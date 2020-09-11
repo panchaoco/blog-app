@@ -1,0 +1,27 @@
+.article {
+  padding: 20px;
+  font-family: -apple-system-font, Helvetica Neue, sans-serif;
+  .p, .li {
+    font-size: 26px;
+    line-height: 60px;
+    color: #333;
+  }
+  .code {
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace, "STHeitiTC-Light", "Microsoft YaHei Light", -apple-system, system-ui, BlinkMacSystemFont;
+    font-size: 28px;
+    line-height: 40px;
+  }
+  .pre {
+    margin: 20px 0;
+  }
+  .h2 {
+    font-size: 40px;
+  }
+  .h1, .h2, .h3, .h4, .h5, .h6 {
+    margin: 30px 0;
+  }
+  .img {
+    width: 100%;
+    margin: 20px 0;
+  }
+}

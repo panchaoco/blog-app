@@ -1,0 +1,36 @@
+.nav-bar {
+  height: 80px;
+}
+.article-item {
+  display: flex;
+  margin: 20px;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+  padding: 14px;
+  border-radius: 10px;
+  .article-img {
+    width: 35%;
+    height: 170px;
+  }
+  .desc {
+    flex: 1;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    .title {
+      font-size: 26px;
+      font-weight: 600;
+      color: #333333;
+    }
+    .desc-cont {
+      font-size: 24px;
+      margin-top: 20px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      /*! autoprefixer: off */
+      -webkit-box-orient: vertical;
+      /* autoprefixer: on */
+    }
+  }
+}
